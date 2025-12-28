@@ -5,9 +5,9 @@ const Homepage = () => {
   const { myName, myTitle, myBio, projects } = homeData;
 
   return (
-    <div className="px-4 sm:px-6 lg:px-8 py-8">
+    <div className="px-4 sm:px-6 lg:px-8 py-4">
       {/* Hero Section */}
-      <section className="max-w-5xl mx-auto bg-white/10 backdrop-blur-lg rounded-3xl p-6 md:p-10 border border-white/20 mb-16 relative overflow-hidden">
+      <section className="max-w-6xl mx-auto bg-white/10 backdrop-blur-lg rounded-3xl p-6 md:p-10 border border-white/20 mb-16 relative overflow-hidden">
         <div className="relative z-10">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2">
             Hi, my name is {myName} 👋
