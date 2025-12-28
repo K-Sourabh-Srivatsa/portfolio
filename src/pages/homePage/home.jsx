@@ -1,4 +1,3 @@
-import React from "react";
 import homeData from "./home.json";
 
 const Homepage = () => {
