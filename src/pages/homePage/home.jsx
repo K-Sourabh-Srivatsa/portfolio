@@ -2,7 +2,7 @@ import React from "react";
 import homeData from "./home.json";
 
 const Homepage = () => {
-  const { myName, myTitle, myBio, projects } = homeData;
+  const { myName, myTitle, myCompany, myBio, projects } = homeData;
 
   return (
     <div className="px-4 sm:px-6 lg:px-8 py-4">
@@ -10,11 +10,12 @@ const Homepage = () => {
       <section className="max-w-6xl mx-auto bg-white/10 backdrop-blur-lg rounded-3xl p-6 md:p-10 border border-white/20 mb-16 relative overflow-hidden">
         <div className="relative z-10">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2">
-            Hi, my name is {myName} 👋
+            Hi, my name is <span className="text-green-100">{myName}</span> 👋
           </h1>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-white/90">
-            I am a {myTitle.split("@")[0]}
+          <h2 className="text-2xl sm:text-3xl md:text-4xl mb-2 text-white/90">
+            I am a <span className="font-bold text-red-100">{myTitle}</span>
           </h2>
+          <h4 className="mb-4 font-bold text-yellow-200">@{myCompany}</h4>
           <p className="text-base sm:text-lg text-white/70 max-w-2xl leading-relaxed mb-8">
             {myBio}
           </p>

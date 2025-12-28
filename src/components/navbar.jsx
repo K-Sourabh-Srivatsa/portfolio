@@ -21,7 +21,9 @@ const Navbar = () => {
                 aria-label={`${label} navigation`}
                 className={({ isActive }) =>
                   `px-2 sm:px-3 py-1 sm:py-1.5 rounded-lg transition-all text-sm sm:text-base ${
-                    isActive ? "bg-purple-500 shadow-lg" : "hover:bg-white/10"
+                    isActive
+                      ? "bg-purple-500 shadow-lg text-green-100"
+                      : "hover:bg-white/10"
                   }`
                 }
               >
