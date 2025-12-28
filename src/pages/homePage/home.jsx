@@ -5,25 +5,7 @@ const Homepage = () => {
   const { myName, myTitle, myBio, projects } = homeData;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-indigo-900 to-purple-800 text-white p-8 md:p-16">
-      {/* Navigation Bar */}
-      <nav className="flex justify-center mb-12">
-        <div className="flex bg-white/10 backdrop-blur-md rounded-xl p-1 border border-white/20">
-          {["Home", "Projects", "About", "Contact"].map((item) => (
-            <button
-              key={item}
-              className={`px-6 py-2 rounded-lg transition-all ${
-                item === "Home"
-                  ? "bg-purple-500 shadow-lg"
-                  : "hover:bg-white/10"
-              }`}
-            >
-              {item}
-            </button>
-          ))}
-        </div>
-      </nav>
-
+    <div className>
       {/* Hero Section */}
       <section className="max-w-5xl mx-auto bg-white/10 backdrop-blur-lg rounded-3xl p-10 border border-white/20 mb-16 relative overflow-hidden">
         <div className="relative z-10">
