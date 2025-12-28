@@ -1,0 +1,31 @@
+{
+  "myName": "Sourabh Srivatsa",
+  "myTitle": "Software Engineer @EPAM Systems, Hyderabad",
+  "myBio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  "projects": [
+    {
+      "projectIndex": 1,
+      "projectTitle": "Quantum Analytics Dashboard",
+      "projectDescription": "A real-time data visualization platform for monitoring distributed systems.",
+      "projectCheckoutPath": "/projects/quantum-analytics"
+    },
+    {
+      "projectIndex": 2,
+      "projectTitle": "Neural Network Playground",
+      "projectDescription": "An interactive web-based interface for training and testing lightweight neural models.",
+      "projectCheckoutPath": "/projects/neural-playground"
+    },
+    {
+      "projectIndex": 3,
+      "projectTitle": "SecureVault API",
+      "projectDescription": "A RESTful API implementation focusing on high-level encryption and secure credential storage.",
+      "projectCheckoutPath": "/projects/secure-vault"
+    },
+    {
+      "projectIndex": 4,
+      "projectTitle": "CloudStream Optimizer",
+      "projectDescription": "Automated resource scaling tool for optimizing cloud infrastructure costs and performance.",
+      "projectCheckoutPath": "/projects/cloudstream"
+    }
+  ]
+}

@@ -1,12 +1,11 @@
 import { useState } from "react";
+import Homepage from "./pages/homePage/home";
 
 function App() {
   return (
     <>
       <div>
-        <h1 className="text-3xl font-bold underline">
-          Hello, this is Portfolio project
-        </h1>
+        <Homepage />
       </div>
     </>
   );
