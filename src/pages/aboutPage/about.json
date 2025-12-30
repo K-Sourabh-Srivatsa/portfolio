@@ -1,0 +1,22 @@
+{
+  "myBio": "Aspiring Software Engineer with a focus on building scalable web applications and intuitive user interfaces. Passionate about clean code and performance optimization.",
+  "myDegree": "B.Tech in Computer Science and Engineering @KMIT, Hyderabad 2020-2024",
+  "myExperience": [
+    {
+      "myCompanyIndex": 1,
+      "myCompanyName": "EPAM Systems",
+      "myCompanyRole": "Software Engineer",
+      "myCompanyDuration": "June 2024 - Present",
+      "myCompanyClients": "Global Financial Services Provider",
+      "myWork": [
+        "Developing responsive React-based dashboards for real-time data monitoring.",
+        "Collaborating with cross-functional teams to integrate RESTful APIs.",
+        "Optimizing frontend performance to reduce initial load times by 20%."
+      ],
+      "myAchievements": [
+        "Recognized for outstanding contribution to the core UI library migration.",
+        "Awarded 'Star of the Quarter' for delivering critical modules ahead of schedule."
+      ]
+    }
+  ]
+}
