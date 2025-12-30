@@ -1,0 +1,13 @@
+{
+  "contactCard": {
+    "personalEmail": "ksourabhsrivatsa@gmail.com",
+    "workEmail": "sourabh_srivatsa@epam.com",
+    "phone": "+91 8978777266",
+    "location": "Hyderabad, India"
+  },
+  "profilesCard": {
+    "linkedIn": "https://www.linkedin.com/in/sourabh-srivatsa-k-100632283",
+    "github": "https://github.com/K-Sourabh-Srivatsa",
+    "leetcode": "https://leetcode.com/u/Sourabh_Srivatsa"
+  }
+}
