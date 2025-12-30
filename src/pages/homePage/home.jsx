@@ -4,9 +4,9 @@ const Homepage = () => {
   const { myName, myTitle, myCompany, myBio, projects } = homeData;
 
   return (
-    <div className="lg:px-8 py-4">
+    <div className="mt-6 py-4">
       {/* Hero Section */}
-      <section className="w-full bg-white/10 backdrop-blur-lg rounded-3xl p-6 md:p-10 border border-white/20 mb-16 relative overflow-hidden">
+      <section className="w-full bg-white/10 backdrop-blur-lg rounded-3xl p-6 md:p-10 border border-white/20 mb-8 relative overflow-hidden">
         <div className="relative z-10">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2">
             Hi, my name is <span className="text-green-100">{myName}</span> 👋
@@ -15,7 +15,7 @@ const Homepage = () => {
             I am a <span className="font-bold text-red-100">{myTitle}</span>
           </h2>
           <h4 className="mb-4 font-bold text-yellow-200">@{myCompany}</h4>
-          <p className="text-base sm:text-lg text-white/70 max-w-2xl leading-relaxed mb-8">
+          <p className="text-base sm:text-lg text-white/70 leading-relaxed mb-8">
             {myBio}
           </p>
           <button
@@ -30,8 +30,8 @@ const Homepage = () => {
       </section>
 
       {/* Projects Grid */}
-      <section className="max-w-6xl mx-auto">
-        <h3 className="text-2xl sm:text-3xl font-bold mb-8">Projects</h3>
+      <section className="w-full">
+        <h3 className="text-2xl sm:text-3xl font-bold mb-6">Projects</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
           {projects.map((project) => (
             <div

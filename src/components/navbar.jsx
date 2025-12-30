@@ -10,7 +10,7 @@ const links = [
 const Navbar = () => {
   return (
     <>
-      <nav className="w-full mb-3">
+      <nav className="max-w-4xl lg:mx-auto sm:w-full mb-6">
         <div className="flex w-full bg-white/10 backdrop-blur-md rounded-xl p-1 sm:p-2 border border-white/20 gap-1 sm:gap-2">
           {links.map(({ label, to }) => (
             <NavLink
