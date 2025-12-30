@@ -137,7 +137,7 @@ const Contact = () => {
         </div>
 
         <div className="container">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2">
+          <h1 className="text-2xl sm:text-3xl font-bold mb-6">
             Follow my Profiles
           </h1>
           {/* Profiles Section */}
