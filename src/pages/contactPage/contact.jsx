@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="mt-6 py-4">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
-        {/* Hero Section */}
+        /* Contact Details Section */
         <div className="container">
           <h1 className="text-2xl sm:text-3xl font-bold mb-6">
             Contact Details
@@ -135,12 +135,11 @@ const Contact = () => {
             <div className="hidden sm:block absolute -top-24 -right-24 w-72 sm:w-96 h-72 sm:h-96 bg-purple-500/20 blur-[100px] rounded-full"></div>
           </section>
         </div>
-
+        {/* Profiles Section */}
         <div className="container">
           <h1 className="text-2xl sm:text-3xl font-bold mb-6">
             Follow my Profiles
           </h1>
-          {/* Profiles Section */}
           <section className="w-full bg-white/10 backdrop-blur-lg rounded-3xl p-6 md:p-10 border border-white/20 mb-8 relative overflow-hidden">
             <div className="relative z-10">
               <ul className="list-none pl-0 space-y-4 text-white/90 break-words">

@@ -1,8 +1,7 @@
 import homeData from "../pages/homePage/home.json";
 
-const { myName, myTitle, myCompany, myBio, projects } = homeData;
-
 const HeroSection = () => {
+  const { myName, myTitle, myCompany, myBio } = homeData;
   return (
     <>
       <section className="w-full bg-white/10 backdrop-blur-lg rounded-3xl p-6 md:p-10 border border-white/20 mb-8 relative overflow-hidden">
