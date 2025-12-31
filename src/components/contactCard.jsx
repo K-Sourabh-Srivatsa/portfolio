@@ -56,7 +56,7 @@ const ContactCard = () => {
                   />
                 </svg>
                 <div className="flex-1 min-w-0">
-                  <span className="font-bold">Work Email:</span>
+                  <span className="font-bold">Work Email: </span>
                   <span>
                     <a
                       href={`mailto:${contactCard.workEmail}`}
