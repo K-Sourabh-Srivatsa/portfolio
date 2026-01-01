@@ -5,17 +5,16 @@
     {
       "myCompanyIndex": 1,
       "myCompanyName": "EPAM Systems",
-      "myCompanyRole": "Software Engineer",
+      "myCompanyRole": "Junior Software Engineer",
       "myCompanyDuration": "June 2024 - Present",
-      "myCompanyClients": "Global Financial Services Provider",
+      "myCompanyClients": "Restaurant Brands International (RBI)",
       "myWork": [
         "Developing responsive React-based dashboards for real-time data monitoring.",
         "Collaborating with cross-functional teams to integrate RESTful APIs.",
         "Optimizing frontend performance to reduce initial load times by 20%."
       ],
       "myAchievements": [
-        "Recognized for outstanding contribution to the core UI library migration.",
-        "Awarded 'Star of the Quarter' for delivering critical modules ahead of schedule."
+        "Recognized as the 'Troubleshooter of the Month' for resolving critical fires which impacted several markets across various regions"
       ]
     }
   ]
