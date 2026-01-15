@@ -28,7 +28,7 @@ const MyExp = () => {
                       </span>
                     </div>
                     {exp.myCompanyClients && (
-                      <p className="text-sm text-gray-300">
+                      <p className="text-white">
                         <span className="font-semibold text-purple-200">
                           Client:
                         </span>{" "}
@@ -84,13 +84,27 @@ const MyExp = () => {
                             d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
                           />
                         </svg>
-                        Key Achievement
+                        Key Achievements
                       </h3>
-                      {exp.myAchievements.map((ach, idx) => (
-                        <p key={idx} className="text-sm text-gray-300 pl-6">
-                          {ach}
-                        </p>
-                      ))}
+                      <ul className="space-y-3 mt-3">
+                        {exp.myAchievements.map((ach, idx) => (
+                          <li key={idx} className="flex items-start gap-3">
+                            <div className="shrink-0 mt-0.5">
+                              <svg 
+                                xmlns="http://www.w3.org/2000/svg" 
+                                className="w-5 h-5 text-yellow-500" 
+                                viewBox="0 0 20 20" 
+                                fill="currentColor"
+                              >
+                                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                              </svg>
+                            </div>
+                            <span className="text-sm text-gray-300 leading-relaxed">
+                              {ach}
+                            </span>
+                          </li>
+                        ))}
+                      </ul>
                     </div>
                   )}
                 </div>

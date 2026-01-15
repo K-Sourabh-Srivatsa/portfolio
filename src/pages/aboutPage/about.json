@@ -1,37 +1,48 @@
 {
   "myBio": "Aspiring Software Engineer with a focus on building scalable web applications and intuitive user interfaces. Passionate about clean code and performance optimization.",
   "myDegree": [
-    "B.Tech in Computer Science and Engineering @KMIT, Hyderabad 2020-2024",
-    "MBA in MIT"
+    "B.Tech in Computer Science and Engineering @KMIT, Hyderabad 2020-2024"
+  ],
+  "mySkills": [
+    {
+      "category": "Frontend Development",
+      "technologies": "HTML/CSS, React, React Native"
+    },
+    {
+      "category": "Backend Development",
+      "technologies": "NodeJS, ExpressJS, Postman"
+    },
+    {
+      "category": "Database Management",
+      "technologies": "MySQL, MongoDB, AWS DynamoDB"
+    },
+    {
+      "category": "Cloud Infrastructure (AWS)",
+      "technologies": "IAM, S3, Lambda"
+    },
+    {
+      "category": "Monitoring & Analytics",
+      "technologies": "Datadog, Amplitude"
+    },
+    {
+      "category": "Customer Engagement & CMS",
+      "technologies": "Braze, Sanity IO"
+    }
   ],
   "myExperience": [
     {
       "myCompanyIndex": 1,
       "myCompanyName": "EPAM Systems",
       "myCompanyRole": "Junior Software Engineer",
-      "myCompanyDuration": "June 2024 - June 2026",
+      "myCompanyDuration": "June 2024 - Present",
       "myCompanyClients": "Restaurant Brands International (RBI)",
       "myWork": [
-        "Developing responsive React-based dashboards for real-time data monitoring.",
-        "Collaborating with cross-functional teams to integrate RESTful APIs.",
-        "Optimizing frontend performance to reduce initial load times by 20%."
+        "Collaborated with Customer Service Managers for various markets all over the world to resolve critical fires",
+        "Troubleshooted and resolved critical configurational and code related issues within the stipulated SLAs and SLOs",
+        "Proactively monitored and identified various critical issues within the RBI Platform"
       ],
       "myAchievements": [
-        "Recognized as the 'Troubleshooter of the Month' for resolving critical fires which impacted several markets across various regions"
-      ]
-    },
-    {
-      "myCompanyIndex": 1,
-      "myCompanyName": "My Company",
-      "myCompanyRole": "Junior Software Engineer",
-      "myCompanyDuration": "June 2026 - Present",
-      "myCompanyClients": "Google",
-      "myWork": [
-        "Developing responsive React-based dashboards for real-time data monitoring.",
-        "Collaborating with cross-functional teams to integrate RESTful APIs."
-      ],
-      "myAchievements": [
-        "Recognized as the best ever"
+        "Recognized as the 'Troubleshooter of the Month' for resolving fires which impacted several markets across various regions"
       ]
     }
   ]

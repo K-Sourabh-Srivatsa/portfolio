@@ -4,7 +4,7 @@
             "propertyIndex": 1,
             "projectTitle": "Mineral Processing Technology Image Analytics",
             "projectImage": "../../images/Mineral Processing Technology.png",
-            "projectDescription": "The Mineral Particle Analysis System automates digital image processing to calculate geometric metrics to provide critical insights into particle size, elongation, spatial distribution, and contour characteristics.",
+            "projectDescription": "The Mineral Particle Analysis System uses automated image processing to calculate particle size, shape, and spatial distribution.",
             "projectCheckoutPath": "https://github.com/K-Sourabh-Srivatsa/Mineral-Processing-Technology---Image-Analytics",
             "projectTechStack": "Python 3.11.6, OpenCV, NumPy, Pillow, Rembg"
         },

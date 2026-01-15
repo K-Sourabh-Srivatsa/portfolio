@@ -22,7 +22,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     `flex-1 text-center px-2 sm:px-3 py-1 sm:py-1.5 rounded-lg transition-all text-base sm:text-lg ${
                       isActive
-                        ? "bg-purple-500 shadow-lg text-green-100"
+                        ? "bg-purple-500 shadow-lg"
                         : "hover:bg-white/10 text-white"
                     }`
                   }
