@@ -24,8 +24,13 @@ const ProjectsSection = () => {
                 {project.projectDescription}
               </p>
 
+              <p className="text-white/60 text-sm sm:text-base mb-4 break-words">
+                <span className="font-semibold text-white/90">Tech Stack:</span> {project.projectTechStack}
+              </p>
+
               <button
-                aria-label={`Check out ${project.projectTitle}`}
+                aria-label={`Check out ${project.projectCheckoutPath}`}
+                onClick={() => window.open(project.projectCheckoutPath, "_blank")}
                 className="w-full bg-purple-500/80 hover:bg-purple-500 py-2 sm:py-3 rounded-2xl font-medium transition-all text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-purple-300"
               >
                 Check Out
