@@ -12,7 +12,7 @@ const HeroSection = () => {
           <h2 className="text-2xl sm:text-3xl md:text-4xl mb-2 text-white/90">
             I am a <span className="font-bold text-red-100">{myTitle}</span>
           </h2>
-          <h4 className="mb-4 font-bold text-yellow-200">@{myCompany}</h4>
+          <h4 className="text-xl mb-4 font-bold text-yellow-200">@{myCompany}</h4>
           <p className="text-base sm:text-lg text-white leading-relaxed">
             {myBio}
           </p>
