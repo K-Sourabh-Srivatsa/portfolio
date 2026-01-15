@@ -27,6 +27,27 @@
             "projectDescription": "This is a bookmarker app, where you can store links that you find on the internet",
             "projectCheckoutPath": "https://github.com/K-Sourabh-Srivatsa/bookmarker",
             "projectTechStack": "MongoDB, Express.js, React.js, Bootstrap"
+        },
+        {
+            "propertyIndex": 5,
+            "projectTitle": "Breast Cancer Histopathology Image Classification",
+            "projectDescription": "This project focuses on using CNN & RNN ML and Deep Learning techniques to automatically categorize breast tissue samples as either malignant or benign",
+            "projectCheckoutPath": "https://github.com/K-Sourabh-Srivatsa/Breast-Cancer-Histopathology-Image-Classification",
+            "projectTechStack": "CNN, RNN, Machine Learning, Deep Learning"
+        },
+        {
+            "propertyIndex": 6,
+            "projectTitle": "Restaurant Landing Page",
+            "projectDescription": "Restaurant-Landing-Page is a responsive single-page template built with HTML, CSS, and JavaScript that showcases a restaurant’s brand, menu highlights, and gallery.",
+            "projectCheckoutPath": "https://github.com/K-Sourabh-Srivatsa/Restaurant-Landing-Page",
+            "projectTechStack": "HTML, CSS, JavaScript"
+        },
+        {
+            "propertyIndex": 7,
+            "projectTitle": "Portfolio",
+            "projectDescription": "Check out the source code for this Website that you have visited!",
+            "projectCheckoutPath": "https://github.com/K-Sourabh-Srivatsa/portfolio",
+            "projectTechStack": "React, Vite, Tailwind CSS"
         }
     ]
 }
