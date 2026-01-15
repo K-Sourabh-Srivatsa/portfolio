@@ -30,7 +30,7 @@
     },
     {
       "propertyIndex": 4,
-      "projectTitle": "bookmarker",
+      "projectTitle": "Bookmarker",
       "projectImage": "../images/Bookmarker.png",
       "projectDescription": "This is a bookmarker app, where you can store links that you find on the internet",
       "projectCheckoutPath": "https://github.com/K-Sourabh-Srivatsa/bookmarker",

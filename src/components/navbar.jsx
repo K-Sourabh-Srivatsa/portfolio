@@ -36,7 +36,7 @@ const Navbar = () => {
       </div>
 
       {/* spacer to prevent content being hidden under fixed navbar */}
-      <div className="h-14 sm:h-16" aria-hidden="true" />
+      {/* <div className="h-14 sm:h-16" aria-hidden="true" /> */}
     </>
   );
 };
