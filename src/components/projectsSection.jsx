@@ -2,6 +2,13 @@ import homeData from "../pages/homePage/home.json";
 
 const ProjectsSection = () => {
   const { projects } = homeData;
+  const projectImages = import.meta.glob("../images/*", { eager: true });
+
+  const getImagePath = (path) => {
+    const imageModule = projectImages[path];
+    return imageModule ? imageModule.default : null;
+  };
+
   return (
     <>
       <section className="w-full">
@@ -12,9 +19,13 @@ const ProjectsSection = () => {
               key={project.projectIndex}
               className="bg-white/5 backdrop-blur-md border border-white/10 rounded-3xl p-6 flex flex-col h-full hover:border-white/30 transition-all group"
             >
-              {/* Mock Project Image/Icon */}
+              {/* Project Image */}
               <div className="bg-purple-950/40 rounded-2xl h-40 md:h-48 mb-6 overflow-hidden border border-white/5">
-                <div className="w-full h-full bg-gradient-to-t from-purple-500/20 to-transparent group-hover:scale-110 transition-transform duration-500"></div>
+                <img 
+                  src={getImagePath(project.projectImage)} 
+                  alt={project.projectTitle}
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
               </div>
 
               <h4 className="text-lg sm:text-xl font-bold mb-3 break-words">
