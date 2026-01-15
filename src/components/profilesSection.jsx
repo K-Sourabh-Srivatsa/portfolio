@@ -13,7 +13,7 @@ const ProfilesSection = () => {
               <li className="flex items-start gap-3">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h6 w-6 text-white/70 flex-shrink-0"
+                  className="h6 w-6 text-white flex-shrink-0"
                   viewBox="0 0 24 24"
                   fill="currentColor"
                   aria-hidden="true"
@@ -40,7 +40,7 @@ const ProfilesSection = () => {
               <li className="flex items-start gap-3">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h6 w-6 text-white/70 flex-shrink-0"
+                  className="h6 w-6 text-white flex-shrink-0"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -71,7 +71,7 @@ const ProfilesSection = () => {
               <li className="flex items-start gap-3">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h6 w-6 text-white/70 flex-shrink-0"
+                  className="h6 w-6 text-white flex-shrink-0"
                   viewBox="0 0 24 24"
                   fill="currentColor"
                   aria-hidden="true"

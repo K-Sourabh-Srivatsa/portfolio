@@ -32,7 +32,7 @@ const MyBioSection = () => {
                   </svg>
                 </div>
                 <div className="flex-1 min-w-0">
-                  <span className="text-sm leading-relaxed">
+                  <span className="leading-relaxed">
                     {MyBioData.myBio}
                   </span>
                 </div>
@@ -66,7 +66,7 @@ const MyBioSection = () => {
                           </svg>
                         </div>
                         <div className="flex-1 min-w-0">
-                          <span className="text-sm leading-relaxed text-white">{deg}</span>
+                          <span className="leading-relaxed text-white">{deg}</span>
                         </div>
                       </div>
                     ))
@@ -95,7 +95,7 @@ const MyBioSection = () => {
                         </svg>
                       </div>
                       <div className="flex-1 min-w-0">
-                        <span className="text-sm leading-relaxed">
+                        <span className="leading-relaxed">
                           {MyBioData.myDegree}
                         </span>
                       </div>

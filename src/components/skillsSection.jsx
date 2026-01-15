@@ -67,7 +67,7 @@ const MySkills = () => {
 
   // Fallback config if category name doesn't match
   const defaultConfig = {
-    color: "text-gray-300",
+    color: "text-white",
     bgColor: "bg-gray-500/10",
     borderColor: "border-gray-500/20",
     icon: (
@@ -82,7 +82,7 @@ const MySkills = () => {
       <h1 className="text-2xl sm:text-3xl font-bold mb-6">Technical Skills</h1>
       <section className="w-full bg-white/10 backdrop-blur-lg rounded-3xl p-6 md:p-8 border border-white/20 mb-8 relative overflow-hidden">
         {/* Table Header - Only visible on medium screens and up */}
-        <div className="hidden md:grid md:grid-cols-12 gap-2 pb-4 border-b border-white/10 text-white/60 font-semibold uppercase text-xs tracking-wider">
+        <div className="hidden md:grid md:grid-cols-12 gap-2 pb-4 border-b border-white/10 text-white font-semibold uppercase text-xs tracking-wider">
           <div className="col-span-4 pl-4">Category</div>
           <div className="col-span-8">Technologies</div>
         </div>

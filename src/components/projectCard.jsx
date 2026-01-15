@@ -18,11 +18,11 @@ const ProjectCard = ({ image, title, description, techStack, checkoutPath }) => 
       <h4 className="text-lg sm:text-xl font-bold mb-3 break-words">
         {title}
       </h4>
-      <p className="text-white/60 text-sm sm:text-base mb-8 flex-grow break-words">
+      <p className="text-white text-sm sm:text-base mb-8 flex-grow break-words">
         {description}
       </p>
 
-      <p className="text-white/60 text-sm sm:text-base mb-4 break-words">
+      <p className="text-white text-sm sm:text-base mb-4 break-words">
         <span className="font-semibold text-white/90">Tech Stack:</span> {techStack}
       </p>
 
@@ -32,7 +32,7 @@ const ProjectCard = ({ image, title, description, techStack, checkoutPath }) => 
           e.stopPropagation();
           window.open(checkoutPath, "_blank");
         }}
-        className="w-full bg-purple-500/80 hover:bg-purple-500 py-2 sm:py-3 rounded-2xl font-medium transition-all text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-purple-300"
+        className="w-full bg-purple-500/80 hover:bg-purple-500 py-2 sm:py-3 rounded-2xl font-bold transition-all text-base focus:outline-none focus:ring-2 focus:ring-purple-300 text-white-300"
       >
         Check Out
       </button>

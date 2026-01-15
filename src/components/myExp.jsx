@@ -23,7 +23,7 @@ const MyExp = () => {
                         <span className="text-purple-300 mx-2">@</span>
                         {exp.myCompanyName}
                       </h2>
-                      <span className="text-sm font-medium bg-white/20 px-3 py-1 rounded-full w-fit">
+                      <span className=" font-medium bg-white/20 px-3 py-1 rounded-full w-fit">
                         {exp.myCompanyDuration}
                       </span>
                     </div>
@@ -32,7 +32,7 @@ const MyExp = () => {
                         <span className="font-semibold text-purple-200">
                           Client:
                         </span>{" "}
-                        {exp.myCompanyClients}
+                        <span className="font-bold">{exp.myCompanyClients}</span>
                       </p>
                     )}
                   </div>
@@ -58,7 +58,7 @@ const MyExp = () => {
                           </svg>
                         </div>
                         <div className="flex-1 min-w-0">
-                          <span className="text-sm leading-relaxed text-gray-200">
+                          <span className=" leading-relaxed text-white">
                             {work}
                           </span>
                         </div>
@@ -69,7 +69,7 @@ const MyExp = () => {
                   {/* Achievements */}
                   {exp.myAchievements && exp.myAchievements.length > 0 && (
                     <div className="mt-4 p-4 bg-purple-500/10 rounded-xl border border-purple-500/20">
-                      <h3 className="text-sm font-bold text-purple-200 mb-2 flex items-center gap-2">
+                      <h3 className=" font-bold text-purple-200 mb-2 flex items-center gap-2">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           className="w-4 h-4"
@@ -99,7 +99,7 @@ const MyExp = () => {
                                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                               </svg>
                             </div>
-                            <span className="text-sm text-gray-300 leading-relaxed">
+                            <span className=" text-white-300 leading-relaxed">
                               {ach}
                             </span>
                           </li>

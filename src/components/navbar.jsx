@@ -20,10 +20,10 @@ const Navbar = () => {
                   to={to}
                   aria-label={`${label} navigation`}
                   className={({ isActive }) =>
-                    `flex-1 text-center px-2 sm:px-3 py-1 sm:py-1.5 rounded-lg transition-all text-base sm:text-lg ${
+                    `flex-1 text-center px-2 sm:px-3 py-1 sm:py-1.5 rounded-lg transition-all text-base sm:text-lg font-bold text-white-300 ${
                       isActive
                         ? "bg-purple-500 shadow-lg"
-                        : "hover:bg-white/10 text-white"
+                        : "hover:bg-white/10"
                     }`
                   }
                 >

@@ -13,7 +13,7 @@ const HeroSection = () => {
             I am a <span className="font-bold text-red-100">{myTitle}</span>
           </h2>
           <h4 className="mb-4 font-bold text-yellow-200">@{myCompany}</h4>
-          <p className="text-base sm:text-lg text-white/70 leading-relaxed">
+          <p className="text-base sm:text-lg text-white leading-relaxed">
             {myBio}
           </p>
           {/* Add the Resume Download here */}
