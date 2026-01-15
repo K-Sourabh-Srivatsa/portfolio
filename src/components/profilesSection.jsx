@@ -3,13 +3,13 @@ import contactData from "../pages/contactPage/contact.json";
 const ProfilesSection = () => {
   return (
     <>
-      <div className="container">
+      <div className="container h-full flex flex-col">
         <h1 className="text-2xl sm:text-3xl font-bold mb-6">
           Follow my Profiles
         </h1>
-        <section className="w-full bg-white/10 backdrop-blur-lg rounded-3xl p-6 md:p-10 border border-white/20 mb-8 relative overflow-hidden">
-          <div className="relative z-10">
-            <ul className="list-none pl-0 space-y-4 text-white/90 break-words">
+        <section className="w-full bg-white/10 backdrop-blur-lg rounded-3xl p-6 md:p-10 border border-white/20 mb-8 relative overflow-hidden flex-grow flex flex-col">
+          <div className="relative z-10 flex-grow flex flex-col">
+            <ul className="list-none pl-0 gap-4 text-white/90 break-words flex-grow flex flex-col justify-between">
               <li className="flex items-start gap-3">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

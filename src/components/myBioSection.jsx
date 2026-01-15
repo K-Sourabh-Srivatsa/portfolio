@@ -4,7 +4,6 @@ const MyBioSection = () => {
   return (
     <>
       <div className="container">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-6">About Me...</h1>
         <section className="w-full bg-white/10 backdrop-blur-lg rounded-3xl p-6 md:p-8 border border-white/20 mb-8 relative overflow-hidden">
           <div className="relative z-10">
             <ul className="list-none pl-0 space-y-4 text-white break-words">
