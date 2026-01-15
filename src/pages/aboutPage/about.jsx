@@ -1,4 +1,5 @@
 import MyBioSection from "../../components/myBioSection";
+import MyExp from "../../components/myExp";
 
 const About = () => {
   return (
@@ -10,7 +11,7 @@ const About = () => {
             <MyBioSection />
           </div>
           <div className="w-auto lg:flex-1">
-            <MyBioSection />
+            <MyExp />
           </div>
         </div>
       </div>
