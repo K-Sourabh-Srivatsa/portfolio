@@ -1,0 +1,60 @@
+{
+    "projects": [
+        {
+            "propertyIndex": 1,
+            "projectTitle": "Mineral Processing Technology Image Analytics",
+            "projectImage": "../../images/Mineral Processing Technology.png",
+            "projectDescription": "The Mineral Particle Analysis System uses automated image processing to calculate particle size, shape, and spatial distribution.",
+            "projectCheckoutPath": "https://github.com/K-Sourabh-Srivatsa/Mineral-Processing-Technology---Image-Analytics",
+            "projectTechStack": "Python 3.11.6, OpenCV, NumPy, Pillow, Rembg"
+        },
+        {
+            "propertyIndex": 2,
+            "projectTitle": "PasterBot",
+            "projectImage": "../../images/PasterBot.png",
+            "projectDescription": "PasterBot is a GUI Tool that allows users to paste content in text fields where pasting is disabled, and can automate text input on their computer",
+            "projectCheckoutPath": "https://github.com/K-Sourabh-Srivatsa/PasterBot",
+            "projectTechStack": "tkinter, pyautogui, time, pyperclip"
+        },
+        {
+            "propertyIndex": 3,
+            "projectTitle": "MyGPT",
+            "projectImage": "../../images/MyGPT.png",
+            "projectDescription": "This project contains a simple implementation of a bigram language model using PyTorch. The model learns to predict the next character in a sequence based on the preceding character.",
+            "projectCheckoutPath": "https://github.com/K-Sourabh-Srivatsa/MyGPT",
+            "projectTechStack": "PyTorch, torch.nn, torch.nn.functional, torch.optim"
+        },
+        {
+            "propertyIndex": 4,
+            "projectTitle": "bookmarker",
+            "projectImage": "../../images/Bookmarker.png",
+            "projectDescription": "This is a bookmarker app, where you can store links that you find on the internet",
+            "projectCheckoutPath": "https://github.com/K-Sourabh-Srivatsa/bookmarker",
+            "projectTechStack": "MongoDB, Express.js, React.js, Bootstrap"
+        },
+        {
+            "propertyIndex": 5,
+            "projectTitle": "Breast Cancer Histopathology Image Classification",
+            "projectImage": "../../images/Breast Cancer Histopathology Image Classification.png",
+            "projectDescription": "This project focuses on using CNN & RNN ML and Deep Learning techniques to automatically categorize breast tissue samples as either malignant or benign",
+            "projectCheckoutPath": "https://github.com/K-Sourabh-Srivatsa/Breast-Cancer-Histopathology-Image-Classification",
+            "projectTechStack": "CNN, RNN, Machine Learning, Deep Learning"
+        },
+        {
+            "propertyIndex": 6,
+            "projectTitle": "Restaurant Landing Page",
+            "projectImage": "../../images/Restaurant Landing Page.png",
+            "projectDescription": "Restaurant-Landing-Page is a responsive single-page template built with HTML, CSS, and JavaScript that showcases a restaurant’s brand, menu highlights, and gallery.",
+            "projectCheckoutPath": "https://github.com/K-Sourabh-Srivatsa/Restaurant-Landing-Page",
+            "projectTechStack": "HTML, CSS, JavaScript"
+        },
+        {
+            "propertyIndex": 7,
+            "projectTitle": "Portfolio",
+            "projectImage": "../../images/Portfolio.png",
+            "projectDescription": "Check out the source code for this Website that you have visited!",
+            "projectCheckoutPath": "https://github.com/K-Sourabh-Srivatsa/portfolio",
+            "projectTechStack": "React, Vite, Tailwind CSS"
+        }
+    ]
+}
