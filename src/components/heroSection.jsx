@@ -1,4 +1,7 @@
 import homeData from "../pages/homePage/home.json";
+import { saveAs } from "file-saver";
+import resume from "../images/K Sourabh Srivatsa.pdf";
+
 
 const HeroSection = () => {
   const { myName, myTitle, myCompany, myBio } = homeData;
@@ -13,17 +16,19 @@ const HeroSection = () => {
             I am a <span className="font-bold text-red-100">{myTitle}</span>
           </h2>
           <h4 className="text-xl mb-4 font-bold text-yellow-200">@{myCompany}</h4>
-          <p className="text-base sm:text-lg text-white leading-relaxed">
+          <p className="text-base sm:text-lg text-white leading-relaxed mb-8">
             {myBio}
           </p>
           {/* Add the Resume Download here */}
-          {/* <button
-            aria-label="Check out hero"
-            className="bg-purple-500 hover:bg-purple-400 px-6 sm:px-8 py-2 sm:py-3 rounded-2xl font-semibold transition-all shadow-lg text-sm sm:text-base"
-          >
-            Check Out
-          </button> */}
-          {/* add mb-8 into the above p tag when you implement the resume download button */}
+          <div className="about-resume">
+            <p className="text-white/80 mb-4">Check out my Resume below!</p>
+            <button
+              className="bg-purple-500 hover:bg-purple-400 px-6 sm:px-8 py-2 sm:py-3 rounded-2xl font-bold transition-all shadow-lg text-sm sm:text-base cursor-pointer"
+              onClick={() => saveAs(resume, "K Sourabh Srivatsa.pdf")}
+            >
+              Download Resume
+            </button>
+          </div>
         </div>
         {/* Decorative Light Refraction */}
         <div className="hidden sm:block absolute -top-24 -right-24 w-72 sm:w-96 h-72 sm:h-96 bg-purple-500/20 blur-[100px] rounded-full"></div>
