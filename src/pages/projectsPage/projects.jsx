@@ -1,5 +1,5 @@
 import React from "react";
-import projectsData from "./projects.json";
+import projectsData from "../../data/projects.json";
 import ProjectCard from "../../components/projectCard";
 
 const Projects = () => {
@@ -7,7 +7,7 @@ const Projects = () => {
   const projectImages = import.meta.glob("../../data/images/*", { eager: true });
 
   const getImagePath = (path) => {
-    const imageModule = projectImages[path];
+    const imageModule = projectImages[`../../data/${path}`];
     return imageModule ? imageModule.default : null;
   };
 

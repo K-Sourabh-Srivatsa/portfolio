@@ -1,4 +1,4 @@
-import MyBioData from "../pages/aboutPage/about.json";
+import aboutData from "../data/about.json";
 
 const MySkills = () => {
   // Mapping categories to icons and specific colors
@@ -88,7 +88,7 @@ const MySkills = () => {
         </div>
 
         <div className="space-y-4 md:space-y-0 text-white">
-          {MyBioData.mySkills.map((skill, index) => {
+          {aboutData.mySkills.map((skill, index) => {
             const config = categoryConfig[skill.category] || defaultConfig;
             
             return (
@@ -98,7 +98,7 @@ const MySkills = () => {
                   flex flex-col md:grid md:grid-cols-12 md:gap-4 
                   p-4 rounded-xl transition-all duration-300
                   hover:bg-white/5 
-                  ${index !== MyBioData.mySkills.length - 1 ? "md:border-b md:border-white/5" : ""}
+                  ${index !== aboutData.mySkills.length - 1 ? "md:border-b md:border-white/5" : ""}
                 `}
               >
                 {/* Category Column */}

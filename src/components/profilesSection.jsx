@@ -1,4 +1,4 @@
-import contactData from "../pages/contactPage/contact.json";
+import contactData from "../data/contact.json";
 
 const ProfilesSection = () => {
   return (

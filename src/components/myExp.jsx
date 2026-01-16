@@ -1,4 +1,4 @@
-import MyBioData from "../pages/aboutPage/about.json";
+import aboutData from "../data/about.json";
 
 const MyExp = () => {
   return (
@@ -7,7 +7,7 @@ const MyExp = () => {
       <section className="w-full bg-white/10 backdrop-blur-lg rounded-3xl p-6 md:p-8 border border-white/20 mb-8 relative overflow-hidden">
         <div className="relative z-10">
           <ul className="list-none pl-0 space-y-8 text-white break-words">
-            {MyBioData.myExperience.map((exp, index) => (
+            {aboutData.myExperience.map((exp, index) => (
               <li
                 key={index}
                 className={

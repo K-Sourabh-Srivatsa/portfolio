@@ -1,4 +1,4 @@
-import MyBioData from "../pages/aboutPage/about.json";
+import aboutData from "../data/about.json";
 
 const MyBioSection = () => {
   return (
@@ -33,15 +33,15 @@ const MyBioSection = () => {
                 </div>
                 <div className="flex-1 min-w-0">
                   <span className="leading-relaxed">
-                    {MyBioData.myBio}
+                    {aboutData.myBio}
                   </span>
                 </div>
               </li>
 
               <li className="border-t border-purple-500/100 pt-4">
                 <div className="space-y-3">
-                  {Array.isArray(MyBioData.myDegree) ? (
-                    MyBioData.myDegree.map((deg, idx) => (
+                  {Array.isArray(aboutData.myDegree) ? (
+                    aboutData.myDegree.map((deg, idx) => (
                       <div key={idx} className="flex items-start gap-3">
                         <div className="shrink-0 mt-1">
                           <svg
@@ -96,7 +96,7 @@ const MyBioSection = () => {
                       </div>
                       <div className="flex-1 min-w-0">
                         <span className="leading-relaxed">
-                          {MyBioData.myDegree}
+                          {aboutData.myDegree}
                         </span>
                       </div>
                     </div>

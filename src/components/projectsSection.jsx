@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import homeData from "../pages/homePage/home.json";
+import homeData from "../data/home.json";
 import ProjectCard from "./projectCard";
 
 const ProjectsSection = () => {
@@ -7,7 +7,7 @@ const ProjectsSection = () => {
   const projectImages = import.meta.glob("../data/images/*", { eager: true });
 
   const getImagePath = (path) => {
-    const imageModule = projectImages[path];
+    const imageModule = projectImages[`../data/${path}`];
     return imageModule ? imageModule.default : null;
   };
 

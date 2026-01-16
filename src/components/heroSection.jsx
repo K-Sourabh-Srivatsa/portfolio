@@ -1,4 +1,4 @@
-import homeData from "../pages/homePage/home.json";
+import homeData from "../data/home.json";
 import { saveAs } from "file-saver";
 import resume from "../data/images/K Sourabh Srivatsa.pdf";
 
