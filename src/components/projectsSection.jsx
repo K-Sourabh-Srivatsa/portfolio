@@ -4,7 +4,7 @@ import ProjectCard from "./projectCard";
 
 const ProjectsSection = () => {
   const { projects } = homeData;
-  const projectImages = import.meta.glob("../images/*", { eager: true });
+  const projectImages = import.meta.glob("../data/images/*", { eager: true });
 
   const getImagePath = (path) => {
     const imageModule = projectImages[path];

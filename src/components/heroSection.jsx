@@ -1,6 +1,6 @@
 import homeData from "../pages/homePage/home.json";
 import { saveAs } from "file-saver";
-import resume from "../images/K Sourabh Srivatsa.pdf";
+import resume from "../data/images/K Sourabh Srivatsa.pdf";
 
 
 const HeroSection = () => {
