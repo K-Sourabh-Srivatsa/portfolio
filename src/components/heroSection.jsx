@@ -21,7 +21,7 @@ const HeroSection = () => {
           </p>
           {/* Add the Resume Download here */}
           <div className="about-resume">
-            <p className="text-white/80 mb-4">Check out my Resume below!</p>
+            <p className="text-white mb-4">Check out my Resume below!</p>
             <button
               className="bg-purple-500 hover:bg-purple-400 px-6 sm:px-8 py-2 sm:py-3 rounded-2xl font-bold transition-all shadow-lg text-sm sm:text-base cursor-pointer"
               onClick={() => saveAs(resume, "K Sourabh Srivatsa.pdf")}

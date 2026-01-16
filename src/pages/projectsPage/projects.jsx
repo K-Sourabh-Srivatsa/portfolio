@@ -22,6 +22,7 @@ const Projects = () => {
               description={project.projectDescription}
               techStack={project.projectTechStack}
               checkoutPath={project.projectCheckoutPath}
+              githubPath={project.projectGithubPath}
             />
           </div>
         ))}
