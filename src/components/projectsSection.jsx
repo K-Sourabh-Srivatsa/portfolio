@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import homeData from "../data/home.json";
+import projectsData from "../data/projects.json";
 import ProjectCard from "./projectCard";
 
 const ProjectsSection = () => {
-  const { projects } = homeData;
+  const projects = projectsData.projects.slice(0, 4);
   const projectImages = import.meta.glob("../data/images/*", { eager: true });
 
   const getImagePath = (path) => {
@@ -31,7 +31,7 @@ const ProjectsSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
           {projects.map((project) => (
             <ProjectCard
-              key={project.projectIndex}
+              key={project.propertyIndex}
               image={getImagePath(project.projectImage)}
               title={project.projectTitle}
               description={project.projectDescription}

@@ -2,43 +2,5 @@
   "myName": "Sourabh Srivatsa",
   "myTitle": "Software Engineer",
   "myCompany": "EPAM Systems, Hyderabad",
-  "myBio": "I am seeking an opportunity in the field of CS, leveraging my strong technical skills, passion for innovation, and dedication to contribute to a dynamic and collaborative work environment.",
-  "projects": [
-    {
-      "propertyIndex": 1,
-      "projectTitle": "Mineral Processing Technology Image Analytics",
-      "projectImage": "images/Mineral Processing Technology.png",
-      "projectDescription": "The Mineral Particle Analysis System uses automated image processing to calculate particle size, shape, and spatial distribution.",
-      "projectCheckoutPath": "https://github.com/K-Sourabh-Srivatsa/Mineral-Processing-Technology---Image-Analytics",
-      "projectGithubPath": "https://github.com/K-Sourabh-Srivatsa/Mineral-Processing-Technology---Image-Analytics",
-      "projectTechStack": "Python 3.11.6, OpenCV, NumPy, Pillow, Rembg"
-    },
-    {
-      "propertyIndex": 2,
-      "projectTitle": "PasterBot",
-      "projectImage": "images/PasterBot.png",
-      "projectDescription": "PasterBot is a GUI Tool that allows users to paste content in text fields where pasting is disabled, and can automate text input on their computer",
-      "projectCheckoutPath": "https://github.com/K-Sourabh-Srivatsa/PasterBot",
-      "projectGithubPath": "https://github.com/K-Sourabh-Srivatsa/PasterBot",
-      "projectTechStack": "tkinter, pyautogui, time, pyperclip"
-    },
-    {
-      "propertyIndex": 3,
-      "projectTitle": "MyGPT",
-      "projectImage": "images/MyGPT.png",
-      "projectDescription": "This project contains a simple implementation of a bigram language model using PyTorch. The model learns to predict the next character in a sequence based on the preceding character.",
-      "projectCheckoutPath": "https://github.com/K-Sourabh-Srivatsa/MyGPT",
-      "projectGithubPath": "https://github.com/K-Sourabh-Srivatsa/MyGPT",
-      "projectTechStack": "PyTorch, torch.nn, torch.nn.functional, torch.optim"
-    },
-    {
-      "propertyIndex": 4,
-      "projectTitle": "Bookmarker",
-      "projectImage": "images/Bookmarker.png",
-      "projectDescription": "This is a bookmarker app, where you can store links that you find on the internet",
-      "projectCheckoutPath": "https://github.com/K-Sourabh-Srivatsa/bookmarker",
-      "projectGithubPath": "https://github.com/K-Sourabh-Srivatsa/bookmarker",
-      "projectTechStack": "MongoDB, Express.js, React.js, Bootstrap"
-    }
-  ]
+  "myBio": "I am seeking an opportunity in the field of CS, leveraging my strong technical skills, passion for innovation, and dedication to contribute to a dynamic and collaborative work environment."
 }
